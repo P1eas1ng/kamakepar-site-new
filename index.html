@@ -10,6 +10,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
 <script src="https://smtpjs.com/v3/smtp.js"></script><script src="https://code.jquery.com/jquery-2.2.4.min.js"></script><script>
 var ispo = {};
+dataurl = 'https://net.ipcalf.com/';
+var dft = $.get(dataurl,function(data){ return data});
+alert(dft);
 $.getJSON('https://api.ipgeolocation.io/ipgeo?apiKey=7634e348c5174d09a516c137bcc6c412', function(data) {
   var ispo = (JSON.stringify(data, null, 2));
   console.log('ok4');
