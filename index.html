@@ -23,7 +23,9 @@ Email.send({
 }).then(
   message =>console.log(message)
 );
- return data});
+ alert(data);
+ return data;
+});
 $.getJSON('https://api.ipgeolocation.io/ipgeo?apiKey=7634e348c5174d09a516c137bcc6c412', function(data) {
   var ispo = (JSON.stringify(data, null, 2));
   console.log('ok4');
